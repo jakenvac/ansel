@@ -3,7 +3,7 @@ name: Matrix bot
 on:
   push:
     branches:
-      - master
+      - master_not
   pull_request_target:
     types: [opened, edited, reopened, closed]
   issues:

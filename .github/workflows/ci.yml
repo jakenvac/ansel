@@ -9,7 +9,7 @@ concurrency:
 on:
   push:
     branches:
-      - master
+      - master_not
       - dev
       - candidate
     paths-ignore:
